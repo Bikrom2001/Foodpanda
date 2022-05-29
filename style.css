@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* nev bar  */
+
+.icofont-user-alt-7 {
+    font-size: 10px;
+    color: white;
+    background: #C60D5C;
+    padding: 7px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+.shop{
+    color: #C60D5C;
+}
+
+.header{
+    background-image: url('img/Background.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center center; */
+
+}
+
+.text-box h1 {
+    padding-top: 220px;
+    /* font-weight: 300; */
+    font-size: 40px;
+    
+}
+.address{
+    background: white;
+    width: 82%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+.input-from{
+    width: 480px;
+    border-radius: none;
+}
+.btn1 {
+    background: #C60D5C;
+    border-radius: 0px;
+    padding: 20px 48px;
+}
+.btn2 {
+    background: #C60D5C;
+    border-radius: 0px;
+    padding: 17px 48px;
+}
+.or{
+    font-size: 17px;
+}
+
+/* You prepare the food, we handle the res */
+
+.background{
+    background-image: url('img/home-vendor-bd.webp');
+    width: 100%;
+    height: 397px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.get-start{
+    width: 596px;
+    top: 33%;
+    height: 345px;
+    padding: 32px;
+    background: white;
+    position: absolute;
+}
+.btn3{
+    text-align: right;
+    
+}
+.btn-bg {
+    background: #C60D5C;
+    border-radius: 0px;
+    padding: 11px 66px;
+    font-weight: 700;
+}
+.get-start p{
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}
+.get-start h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+
+/* You prepare the food, we handle the res end  */
+
+/* Find us in these cities and many more!  start */
+
+.find{
+    padding-top: 160px;
+    padding-bottom: 180px;
+}
+.find-text h1{
+    font-size: 26px;
+}
+.image01 {
+    position: relative;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    font-size: 25px;
+    font-weight: 700;
+    
+  }
+  .bottomright {
+    position: absolute;
+    bottom: 6px;
+    right: 0px;
+    font-size: 18px;
+  }
+  .icofont-arrow-right {
+    font-size: 30px;
+    color: white;
+    background: #C60D5C;
+    padding: 7px 14px;
+    opacity: 0;
+    transition: 0.7s;
+}
+.image01:hover .icofont-arrow-right{
+    opacity: 1;
+}
+
+.image01 {
+    overflow: hidden;
+    margin: 0 auto;
+}
+   
+.image01 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+   
+.image01:hover img {
+    transform: scale(1.2);
+}
+  
+
+/* Find us in these cities and many more!  end */
+
+/* Put us in your pocket */
+
+.put{
+    width: 100%;
+    background: #C60D5C;
+    height: 380px;
+    margin-bottom: 180px;
+    position: relative;
+}
+.find-text p{
+    font-size: 16px;
+}
+.icon-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: lightcoral; */
+    text-align: left;
+    margin-top: 70px;
+    
+}
+.apple img{
+    text-align: left;
+    margin-left: 0;
+
+}
+.phone{
+    text-align: center;
+}
+.phone img{
+    position: absolute;
+    width: 850px;
+    height: 750px;
+    top: -190px;
+    right: 0;
+    left: 45%;
+}
+
+
+
+.lunch-bg{
+    background-image: url('img/home-corporate-bd.webp');
+    width: 100%;
+    height: 432px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.lunch{
+    width: 596px;
+    top: 50%;
+    height: 250px;
+    padding: 32px;
+    background: white;
+    position: absolute;
+}
+.btn5{
+    text-align: right;
+    
+}
+.btn-bg2 {
+    background: #C60D5C;
+    border-radius: 0px;
+    padding: 11px 66px;
+    font-weight: 700;
+}
+.lunch p{
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}
+.lunch h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+
+
+/* Order food from */
+
+.order{
+    padding-top: 170px;
+    padding-bottom: 50px;
+}
+
+.order-text h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.order-text p{
+    font-size: 16px;
+    padding-bottom: 15px;
+
+}
+.accordion-button:hover{
+    background-color: #DDDDDD;
+}
+
+/* logo */
+.logo-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-logo img{
+    padding: 30px 0;
+}
+.icofont-facebook{
+    font-size: 20px;
+    border: 1px solid #C2C2C2;
+    padding: 5px;
+    border-radius: 50%;
+    color: #C2C2C2;
+    transition: 0.6s;
+}
+.icofont-image{
+    font-size: 20px;
+    border: 1px solid #C2C2C2;
+    padding: 5px;
+    border-radius: 50%;
+    color: #C2C2C2;
+}
+.icons i{
+    margin: 0 8px;
+}
+.icofont-facebook:hover{
+    color: #C60D5C;
+    border: 1px solid #C60D5C;
+}
+.icofont-image:hover{
+    color: #C60D5C;
+    border: 1px solid #C60D5C;
+}
+
+/* foodpanda */
+
+.bg-color:hover{
+    color: #C60D5C;
+    cursor: pointer;
+}
+.sponcher{
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 50px;
+}
+.japan{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.myanmar h3{
+    font-size: 15px;
+    padding: 8px;
+    color: gray;
+    cursor: pointer;
+}

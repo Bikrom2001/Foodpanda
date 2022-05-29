@@ -1,0 +1,249 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+    .responsive{
+        display: none;
+    }
+    .hello{
+        padding-left: 7px;
+        font-size: 25px;
+        display: inline-block;
+    }
+    .text-box h1 {
+        padding-top: 150px;
+        /* font-weight: 300; */
+        font-size: 30px;
+        
+    }
+    .image01{
+        max-width: 85%;
+        margin: auto;
+    }
+
+    .phone img{
+     display: none;
+    }
+    .lunch{
+        width: 460px;
+        top: 50%;
+        height: 250px;
+        padding: 32px;
+        background: white;
+        position: absolute;
+    }
+    .get-start{
+        width: 460px;
+        top: 33%;
+        height: 345px;
+        padding: 32px;
+        background: white;
+        position: absolute;
+    }
+    .head-text{
+        padding-top: 10px;
+    }
+    .find-text h1{
+        padding-top: 10px;
+    }
+    .address{
+        background: rgb(250, 250, 250);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5%;
+        /* flex-wrap: wrap; */
+    }
+    .input-from{
+        width: 450px;
+        border-radius: none;
+        margin-top: 45px;
+    }
+    .btn1 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 20px 48px;
+        margin-top: 10px;
+    }
+    .btn2 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 17px 48px;
+    }
+    .or{
+        font-size: 17px;
+    }
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    
+    .responsive{
+        display: none;
+    }
+    .hello{
+        padding-left: 7px;
+        font-size: 25px;
+        display: inline-block;
+    }
+    .text-box h1 {
+        padding-top: 170px;
+        /* font-weight: 300; */
+        font-size: 37px;
+        
+        
+    }
+    .phone img{
+        display: none;
+       }
+       .input-from{
+        width: 490px;
+        border-radius: none;
+        margin-top: 15px;
+    }
+    .address{
+        background: rgb(250, 250, 250);
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5%;
+        /* flex-wrap: wrap; */
+    }
+ 
+    .btn1 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 20px 70px;
+        margin-top: 10px;
+    }
+    .btn2 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 17px 70px;
+    }
+    .or{
+        font-size: 17px;
+    }
+    .lunch{
+        width: 500px;
+        top: 50%;
+        height: 250px;
+        padding: 32px;
+        background: white;
+        position: absolute;
+      margin: auto;
+    }
+   
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    
+    .responsive{
+        display: none;
+    }
+    .hello{
+        padding-left: 7px;
+        font-size: 25px;
+        display: inline-block;
+    }
+    .phone img{
+        display: none;
+       }
+       .address{
+        background: white;
+        width: 82%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+    }
+    .input-from{
+        width: 280px;
+        border-radius: none;
+    }
+    .btn1 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 20px 30px;
+    }
+    .btn2 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 17px 30px;
+    }
+    .or{
+        font-size: 17px;
+    }
+  
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .phone img{
+        position: absolute;
+        width: 630px;
+        height: 540px;
+        top: -120px;
+        right: 0;
+        left: 37%;
+    }
+
+    .address{
+        background: white;
+        width: 82%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+    }
+    .input-from{
+        width: 380px;
+        border-radius: none;
+    }
+    .btn1 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 20px 48px;
+    }
+    .btn2 {
+        background: #C60D5C;
+        border-radius: 0px;
+        padding: 17px 48px;
+    }
+    .or{
+        font-size: 17px;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .phone img{
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        top: -120px;
+        right: 0;
+        left: 43%;
+    }
+
+
+}
